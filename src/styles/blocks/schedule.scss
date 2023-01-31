@@ -1,0 +1,22 @@
+.schedule {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 8px;
+
+  &__container {
+    margin-right: 25px;
+  }
+
+  &__text {
+    @include simple-black-text;
+    margin-bottom: 8px;
+
+    &--bold {
+      font-weight: 700;
+    }
+
+    &--closed-on {
+      margin-bottom: 0;
+    }
+  }
+}

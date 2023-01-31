@@ -1,0 +1,11 @@
+.page {
+  scroll-behavior: smooth;
+
+  &__section {
+    margin-bottom: 100px;
+
+    @media (min-width: 744px) {
+      margin-bottom: 140px;
+    }
+  }
+}
